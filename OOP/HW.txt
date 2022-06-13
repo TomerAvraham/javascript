@@ -1,0 +1,23 @@
+// Create Class Rectangle
+properties - width, height
+
+**methods 
+getWidth - return the instance width
+getHeight - return the instance height
+
+setWidth - set the instance width
+setHeight - set the instance height
+
+getArea - return the instance area
+getDiagonal - return the instance diagonal
+
+isBigger - return true if one instance area is is bigger then the other, otherwise false
+isSmaller - return true if one instance area is is smaller then the other, otherwise false
+
+
+let r1 = new Rectangle()
+let r2 = new Rectangle()
+
+r1.isBigger(r2)
+
+** Clue ** - you can use methods in methods
