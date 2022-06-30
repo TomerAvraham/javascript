@@ -45,4 +45,10 @@ function checkIfNumBiggerThenTwo(num) {
   }
 }
 
-console.log(arr.every((num) => num > 2));
+function join(array, something = ",") {
+  let str = "";
+  for (let index = 0; index < array.length; index++) {
+    str += array[i] + something;
+  }
+  return str;
+}
