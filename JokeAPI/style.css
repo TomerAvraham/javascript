@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+
+:root {
+  --orange: #f79f1f;
+  --dark-blue: #006266;
+  --text-font-size: 1rem;
+  --btn-font-size: 1.5rem;
+  --white: #ffffff;
+}
+
+* {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+body {
+  background: var(--orange);
+}
+
+h1 {
+  text-align: center;
+}
+
+.controllers-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  font-size: var(--btn-font-size);
+  background: var(--dark-blue);
+  color: var(--white);
+  width: 160px;
+  height: 70px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+select {
+  width: 100px;
+  height: 50px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.joke-container {
+  margin-top: 30px;
+}
